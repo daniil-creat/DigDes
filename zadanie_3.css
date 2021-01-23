@@ -1,0 +1,57 @@
+.TwoStep{
+  margin-left:312px;
+  margin-top:-64px;
+  
+}
+.ThreeStep{
+  margin-left:625px;
+  margin-top:-64px;
+}
+
+.step.active #stop-color1  {
+stop-color:#2EA239;
+
+
+}
+
+.step.active #stop-color2 {
+
+stop-color:#62FD71;
+
+
+}
+
+.step_one{
+  position: absolute;
+width: 71px;
+height: 26px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 26px;
+letter-spacing: 0.1em;
+color: #FFFFFF;
+margin-left:120px;
+padding-top:17px;
+text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.step.active .step_one {
+  position: absolute;
+width: 71px;
+height: 26px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 26px;
+letter-spacing: 0.1em;
+color: #FFFFFF;
+margin-left:120px;
+padding-top:17px;
+text-shadow: black 1px 1px 0, black -1px -1px 0, 
+                 black -1px 1px 0, black 1px -1px 0;
+  
+}
